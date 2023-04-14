@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alta Cocina</title>
+    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@600&display=swap" rel="stylesheet">
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-black bg-gradient bg-opacity-100 fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="/img/chef.png" width="70px" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link link-light  ms-5" href="#">
+              <img src="img/chef.png" alt="home" style="width: 100px; height: 70px;">
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-light  ms-5" href="#QuienesSomos">Quienes somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-light  ms-5" href="#contacto" >Contacto</a>
+          </li>
+        
+        </ul>
+        <ul class="navbar-nav ms-auto ">
+         
+          <li class="nav-item">
+            <a href="#"
+              class="link-success ms-5 link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Iniciar Sesion</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar-->
+  <div class="contenedor">    
+  <section class="container img" style="margin-top: 80px;">
+    <div class="row">
+      <div class="col  col-sm-12 col-lg-6 text-white"> <!--Ajustar el texto de la pagina-->
+        <h1 class="slogan">
+          <br>
+          ¡Crea una cuenta para acceder 
+          <br>a nuestro catalogo
+          <br>y ten la cocina que mereces!</h1>
+      </div>
+      <div class="col-sm-12 col-lg-6 text-center "> 
+          <h2 class="py-4 text-white">Crea tu cuenta Aqui</h2>
+          <form class="px-4">
+            <div class="form-group row py-4">
+              <label for="nombre" class="col-sm-3 col-form-label text-white">Nombre:</label>
+              <div class="col-sm-9">
+                <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre" required>
+              </div>
+            </div>
+            <div class="form-group row py-4">
+              <label for="correo" class="col-sm-3 col-form-label text-white font-weight-bold ">Correo:</label>
+              <div class="col-sm-9">
+                <input type="email" class="form-control" id="correo" placeholder="Ingrese su correo electrónico" required>
+              </div>
+            </div>
+            <div class="form-group row py-4">
+              <label for="contrasenia" class="col-sm-3 col-form-label text-white font-weight">Contraseña:</label>
+              <div class="col-sm-9">
+                <input type="password" class="form-control" id="contrasenia" placeholder="Ingrese su contraseña" required>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-success" id="btnUno">Suscribirse</button>
+          </form>
+          </div>
+    </div>
+  </div>
+
+  <br>
+  <br>
+
+
+<!-- Info empresa -->
+<div class="parrafo" id="QuienesSomos">
+<section class="container img" style="margin-top: 50px;"> 
+    <div class="row">
+      <div class="col text-white">
+      <h2 class="py-4 text-white " >Quienes somos</h2>
+      <p>¿Siempre quisiste cocinar como un verdadero chef? Con nuestros productos de ALTA COCINA puedes lograrlo!. 
+        En nuestra pagina puedes pedir los mejores productos del marcado, avalados por los mejores chef de habla hispana'
+      Tenemos lo que necesitas para convertirte como en tus sueños, un gran chef de categoria! </p>
+
+</div>
+  </section>
+</div>
+<!--Form de contacto-->
+<div class="contacto" id="contacto">
+<section class="container img" style="margin-top: 80px;">
+  <div class="row">
+    <div class="col col-sm-12 col-lg-6 text-white">
+      <h2 class="py-4 text-white" >Formulario de contacto</h2>
+    
+        <div class="form-group row py-4">
+          <label for="nombre" class="col-sm-3 col-form-label text-white">Nombre:</label>
+          <div class="col-sm-9">
+            <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre" required>
+          </div>
+        </div>
+        <div class="form-group row py-4">
+          <label for="correo" class="col-sm-3 col-form-label text-white font-weight-bold">Correo:</label>
+          <div class="col-sm-9">
+            <input type="email" class="form-control" id="correo" placeholder="Ingrese su correo" required>
+          </div>
+        </div>
+        <div class="form-group row py-4">
+          <label for="mensaje" class="col-sm-3 col-form-label text-white font-weight-bold">Mensaje:</label>
+          <div class="col-sm-9">
+            <textarea class="form-control" id="mensaje" rows="5" placeholder="Escriba aqui" required></textarea>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-success" id="btn">Enviar</button>
+      </form>
+    </div>
+    <div class="col-sm-12 col-lg-6 text-center">
+      <p>
+        <br>
+      </p>
+    </div>
+  </div>
+</section>
+</div>
+<!--Form de contacto-->
+<br>
+<br>
+
+  <p class="text-center text-white"></p>
+    </div>
+    <footer class="container-fluid">
+      <div class="row p-5 bg-black text-white pb-0 mb-0">
+        <div class="col-sm-12 col-md-6 col-lg-3 p-0">
+          <img src="./img/chef.png" alt="marca" width="250px" height="200px">
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 ">
+          <h5>Desarolladores</h5>
+          <address>
+            Julian Chiaramonte<br>
+          </address>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+
+          <h5>Contacto</h5>
+          <address>
+
+          <div>  <i class="las la-envelope"></i> AltaCocina@Tomate.com </div>
+          <div><i class="las la-phone"></i> 0800-718233 </div>
+            <div>  <i class="lab la-instagram"></i> @Chef.Hernandez</div>
+          </address>
+          <div class="mb-2">
+            <a class="text-white text-decoration-none" href="#"> 
+                          </a>
+          </div>
+          
+
+          
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <h5>Condiciones y Privacidad</h5>
+          <div class="mb-2">
+            <a class="text-white text-decoration-none" href="#">Politica de privacidad</a>
+            
+          </div>
+          <div class="mb-2">
+          <a class="text-white text-decoration-none" href="#">Termino del servicio</a>
+          </div>
+    
+      </div>
+        <div class="col-sm-12 p-3 mt-3">
+          <p class="text-center " style="font-size: 11px;">Copyrights Todos los derechos reservados</p>
+      
+    </footer>
+
+</body>
+</html>
