@@ -10,11 +10,11 @@ nav {
   font-family: 'Baloo Bhaijaan 2', cursive;
 }
     .contenedor {
-     background-color: rgb(158, 105, 7);
+     background-color: rgb(206, 9, 153);
       background-size:cover ;
       background-repeat: no-repeat;
       border: 1px solid rgb(117, 21, 126);
-      border-radius: 3%;
+      border-radius: 23%;
       margin: 0 10%;
       padding: 0%;
       padding-bottom: 10%;
@@ -22,8 +22,8 @@ nav {
 .parrafo{
   background-color: rgb(119, 92, 3);
   background-repeat: no-repeat;
-  border: 1px solid rgb(93, 50, 212);
-  border-radius: 3%;
+  border: 1px solid rgb(172, 24, 14);
+  border-radius: 13%;
   margin: 0 10%;
   padding: 0%;
   padding-bottom: 10%;
@@ -60,13 +60,43 @@ nav {
     }
 
     .contacto{
-      background-color: rgb(87, 67, 1);
+      background-color: rgb(73, 1, 87);
       background-repeat: no-repeat;
       border: 1px solid rgb(158, 105, 7);
-      border-radius: 3%;
+      border-radius: 21%;
       margin: 0 10%;
       padding: 0%;
       padding-bottom: 10%;
      
       
+    }
+
+    .galeria {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 500px;
+      width: 100%;
+    }
+    
+    .galeria div {
+      height: 100%;
+      width: 100%;
+    }
+    
+    .galeria img {
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+    }
+    
+    .imagen-1,
+    .imagen-2,
+    .imagen-3,
+    .imagen-4 {
+      display: none;
+    }
+    
+    .imagen-1 {
+      display: block;
     }
